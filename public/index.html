@@ -44,34 +44,132 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">TIY Sports</a>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">TIY Sports</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#"> Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Players</a></li>
+            <li><a href="#">Games</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputAmount"></label>
+                <div class="input-group">
+                  <input type="text" class="form-control">
+                  <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
+                </div>
+              </div>
+            </form>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading"><h1>TIY Sports</h1><h4>&hearts; For the students of The Iron Yard</h4></h4>
+          </div>
+          <div class="media-right">
+            <a href="#">
+              <img src="assets/images/sports.jpg" alt="sports" class="img-circle" height="140px" width="140">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="assets/images/football.jpg" alt="football">
+            <div class="caption">
+              <h3>Football</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="assets/images/baseball.jpg" alt="baseball">
+            <div class="caption">
+              <h3>Baseball</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="assets/images/basketball.jpg" alt="basketball">
+            <div class="caption">
+              <h3>Basketball</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="assets/images/quidditch.jpg" alt="quidditch">
+            <div class="caption">
+              <h3>Quidditch</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="alert alert-warning" role="alert">We've added some features in version 2.0!</div>
+      <div class="panel panel-heading panel-default well">
+        <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading"><i class="fa fa-user" aria-hidden="true"></i>Please log in to edit</h4>
+          </div>
+          <div class="media-right">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</button>
+            </a>
+          </div>
+        </div>
+      </div
+      <div class="panel panel-default">
+      <div class="panel panel-primary">
+          <table class="table">
+            <div class="panel panel-heading panel-primary"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>Teams</div>
+            <tr>
+             <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="assets/images/dartboard.png" alt="dartboard" height="40px" width="40px">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Tampa Dart Dynamos</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            </tr>
+            <tr>
+             <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="assets/images/pingpong.jpg" alt="pingpong" height="40px" width="40px">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">St P</h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            </tr>
+          </table>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#"> Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Teams</a></li>
-        <li><a href="#">Players</a></li>
-        <li><a href="#">Games</a></li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <input type="text" class="form-control" placeholder="Search">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
